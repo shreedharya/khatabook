@@ -1,0 +1,17 @@
+{
+  "name": "khata-book",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A local Khata Book ledger for Indian shopkeepers",
+  "main": "server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
